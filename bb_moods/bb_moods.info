@@ -1,0 +1,5 @@
+name = BB Moods
+description = Track moods
+
+core = 7.x
+package = BigBrother
