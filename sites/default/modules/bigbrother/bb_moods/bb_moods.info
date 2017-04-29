@@ -1,5 +1,8 @@
-name = BB Moods
+name = NX BB Moods
 description = Track moods
 
 core = 7.x
-package = Narriax: BigBrother
+package = NX BigBrother
+dependencies[] = NX BigBrother:bb
+
+files[] = bb_moods.module
