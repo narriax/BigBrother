@@ -1,0 +1,11 @@
+name = NX BB
+description = Big Brother core
+
+core = 7.x
+package = NX BigBrother
+dependencies[] = NX:nx
+
+
+configure = admin/config/bb
+
+files[] = bb.module
