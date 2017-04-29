@@ -24,6 +24,9 @@ sites/*/private
 /sites/all/*
 /sites/default/default.settings.php
 
+# Ignore stuff tracked elsewhere
+sites/default/modules/nx/*
+
 # =========================
 # Temp and inis
 # =========================
