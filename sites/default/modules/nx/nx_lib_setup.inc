@@ -21,9 +21,10 @@ function nx_mod_setup ($module_name, $module_setup_dir) {
 	
 	// create tables
 	if (file_exists($module_setup_dir.'/tables')) {
-		nx_mod_setup__update_tables ($module_setup_dir.'/tables');
+		//nx_mod_setup__update_tables ($module_setup_dir.'/tables');
 	}
 	
+	variable_set ($module_name.'_setup', 1);
 }
 
 // create / update user roles
